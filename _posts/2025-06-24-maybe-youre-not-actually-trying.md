@@ -7,6 +7,7 @@ tags:
   - chatgpt-output
 links:
   - "[[2025-06-24]]"
+Author: Me!
 ---
 # Maybe you’re not Actually Trying 
 
