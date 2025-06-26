@@ -1,3 +1,25 @@
 title: "Obsidian-to-Web"
 theme: jekyll-theme-minimal
 markdown: gfm
+
+# --- Plugins -------------------------------------------------
+plugins:
+  - jekyll-titles-from-headings   # Auto title = first H1
+  - jekyll-feed                   # Optional: RSS feed
+  - jekyll-seo-tag                # Optional: basic SEO metadata
+
+# --- Post Defaults -------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /:title.html        # Clean URLs
+      # You can add more defaults here (author, tags, etc.)
+
+# --- Plugin Configuration ------------------------------------
+titles_from_headings:
+  enabled: true
+  strip_title: true      # Remove the H1 so you don’t get double titles
+  collections: true
